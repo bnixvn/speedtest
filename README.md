@@ -2,7 +2,7 @@
 Kiểm tra tốc độ VPS bằng Speedtest CLI
 <h2>Cài đặt Speedtest CLI</h2>
 <h3>Redhat</h3>
-<blockquote>curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.rpm.sh | sudo bash
+<blockquote>curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.rpm.sh | sudo bash<br>
 sudo yum install speedtest</blockquote>
 <h3>Debian / Ubuntu </h3>
 <blockquote>sudo apt-get install curl
