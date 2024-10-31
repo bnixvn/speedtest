@@ -1,8 +1,13 @@
 # SPEEDTEST CLI
 Kiểm tra tốc độ VPS bằng Speedtest CLI
 <h2>Cài đặt Speedtest CLI</h2>
+<h3>Redhat</h3>
 <blockquote>curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.rpm.sh | sudo bash
 sudo yum install speedtest</blockquote>
+<h3>Debian / Ubuntu </h3>
+<blockquote>sudo apt-get install curl
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest</blockquote>
 <h2>Yêu cầu</h2>
 <p>Mở port 8080</p>
 <h2>Kiểm tra</h2>
